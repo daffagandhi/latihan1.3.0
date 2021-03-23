@@ -10,9 +10,9 @@ public class Mahasiswa {
     String modifikasi;
     
     public void Mahasiswa(){
-        System.out.println("cara membaca" + membaca + "dengan tajwid");
+        System.out.println("cara membaca" + membaca + "dengan mimik wajah");
                            
-        System.out.println("sekitar" + nyontek + "cara mencontek yang benar");
+        System.out.println("sekitar" + nyontek + "cara mencontek saat ujian");
         System.out.println("cara modifikasi contekan " + modifikasi);
     }
 }
@@ -27,9 +27,9 @@ public class Mahasiswaberaksi {
     public static void main(String[] args) {
         Mahasiswa mahasiswauin = new Mahasiswa();
         
-                  mahasiswauin.membaca = "al-quran";
-                  mahasiswauin.nyontek = 65;
-                  mahasiswauin.modifikasi = "ada beberapa cara semisal mengacak kata";
+                  mahasiswauin.membaca = "puisi";
+                  mahasiswauin.nyontek = membawa kertas contekan;
+                  mahasiswauin.modifikasi = "ada beberapa cara semisal mengacak urutan";
                   mahasiswauin.Mahasiswa();
                   
                   
