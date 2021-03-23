@@ -2,7 +2,7 @@ package mobil;
 
 /**
  *
- * @author Farhan ashari
+ * @author Daffa Gandhi
  */
 public class mobil1 {
     String warna;
@@ -12,16 +12,16 @@ package mobil;
 
 /**
  *
- * @author Farhan ashari
+ * @author Daffa Gandhi
  */
 public class mobilberaksi {
     public static void main(String[] args) {
-        mobil1 mobilAshari = new mobil1();
+        mobil1 mobilGandhi = new mobil1();
         
-        mobilAshari.warna = "pink";
-        mobilAshari.tahunproduksi = 2002;
+        mobilGandhi.warna = "hitam";
+        mobilGandhi.tahunproduksi = 2018;
         
-        System.out.println("warna: " + mobilAshari.warna);
-        System.out.println("tahun produksi: " + mobilAshari.tahunproduksi);
+        System.out.println("warna: " + mobilGandhi.warna);
+        System.out.println("tahun produksi: " + mobilGandhi.tahunproduksi);
     }
 }
