@@ -1,0 +1,40 @@
+package SepedaGandhi;
+
+/**
+ *
+ * @author Daffa Gandhi
+ */
+public class Sepeda {
+    int gir;
+    
+    void setGir(int penguranganGir){
+        gir=gir- penguranganGir;
+    }
+    
+    int getGir(){
+        return gir;
+    }
+}
+
+package SepedaGandhi;
+
+/**
+ *
+ * @author Daffa Gandhi
+ */
+public class SepedaBeraksi {
+    public static void main(String[] args) {
+        Sepeda sepedagandhi= new Sepeda ();
+            
+            
+               sepedagandi.setGir (1);
+               /*Variabel bisa diubah atau tidak sengaja diubah.
+                 Hal ini berbahaya dan sering menimbulkan bug.
+                 Berikan acces modifier private pada instance variable
+            
+         */
+                sepedagandhi.gir=5-2;
+                System.out.println("Gir saat ini:" + sepedagandhi.getGir());
+            
+        }
+    }
