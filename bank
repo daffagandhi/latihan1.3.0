@@ -9,13 +9,13 @@ public class Bank {
     
     public Bank (){
         this.saldo=100000;
-        this.ambilUang=150000;
-        this.simpanUang=500000;
+        this.ambilUang=200000;
+        this.simpanUang=800000;
     
     }
   
     public void saldo (int saldo, int simpanUang, int ambilUang){
-        System.out.println("selamat datang di Bank Ashari");
+        System.out.println("selamat datang di Bank Pamungkas");
         System.out.println("saldo saat ini : " + "Rp." + saldo);
         
     }
@@ -45,9 +45,9 @@ public class Bank {
  */
 public class BankBeraksi {
     public static void main(String[] args) {
-        Bank BankAshari = new Bank();
-        BankAshari.saldo(100000, 500000, 150000);
-        BankAshari.simpanUang(500000);
-        BankAshari.ambilUang(150000);    
+        Bank BankPamungkas = new Bank();
+        BankAshari.saldo(100000, 800000, 200000);
+        BankAshari.simpanUang(800000);
+        BankAshari.ambilUang(20000);    
     }
 }
